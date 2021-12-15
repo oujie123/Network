@@ -19,9 +19,7 @@ OkHttp是当下Android使用最频繁的网络请求框架，由Square公司开�
 
 ## 使用流程
 
-![使用流程](img/使用流程.png)
-
-
+![使用流程](G:\android_project\Network\doc\使用流程.png)
 
 在使用OkHttp发起一次请求时，对于使用者最少存在`OkHttpClient`、`Request`与`Call`三个角色。其中`OkHttpClient`和`Request`的创建可以使用它为我们提供的`Builder`（建造者模式）。而`Call`则是把`Request`交给`OkHttpClient`之后返回的一个已准备好执行的请求。
 
